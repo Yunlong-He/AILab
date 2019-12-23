@@ -8,3 +8,7 @@ It should be good choice to use Nvidia GPU Cloud, which contains many docker ima
 4. install nvidia-docker
 6. docker login with API key
 7. pull images
+
+Before pulling images, consider to check dependencies like driver version, you can get detail information about the image here:
+https://docs.nvidia.com/deeplearning/frameworks/pytorch-release-notes/rel_19-12.html#rel_19-12
+
