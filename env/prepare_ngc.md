@@ -16,3 +16,5 @@ On my machine, I need to use rel_19-10.
 
 To run PyTorch docker environemnt, use following command:
 docker run --gpus all -it --rm -v `pwd`/mnist:/mnist nvcr.io/nvidia/pytorch:19.10-py3
+
+There are some models widely used in the NGC containers, https://github.com/NVIDIA/DeepLearningExamples
