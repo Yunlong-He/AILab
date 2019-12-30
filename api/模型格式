@@ -1,0 +1,9 @@
+
+各个框架的模型格式都不一样，做模型优化或者推理引擎免不了要对各种模型进行加载处理，因此有必要对各种格式都有所了解。
+
+
+PyTorch.
+有三个API是关于模型保存和加载的：
+1.torch.save：将序列化的对象保存到disk。这个函数使用Python的pickle实用程序进行序列化。使用这个函数可以保存各种对象的模型、张量和字典。
+2.torch.load：使用pickle unpickle工具将pickle的对象文件反序列化为内存。
+3.torch.nn.Module.load_state_dict:使用反序列化状态字典加载model’s参数字典。
